@@ -2,7 +2,7 @@ from flask_restful import Resource
 
 class HelloWorld(Resource):
     def get(self):
-        return {'hello': 'world'}
+        return {'hello': 'get world'}
     
     def post(self):
-        return {'hello': 'world'}
+        return {'hello': 'post world'}
